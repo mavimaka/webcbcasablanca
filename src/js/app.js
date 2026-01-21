@@ -357,7 +357,7 @@ async function reservarCita() {
             title: "Cita Creada",
             text: "Tu cita fue agendada correctamente", 
             button: 'OK'           
-        }).then( () => {gin}
+        }).then( () => {
             setTimeout(() => {
                 window.location.reload();
             }, 3000);            
