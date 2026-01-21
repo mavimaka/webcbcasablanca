@@ -334,7 +334,7 @@ async function reservarCita() {
     datos.append('fecha', fecha);
     datos.append('hora', hora);
     datos.append('usuarioId', id);
-    datos.append('servicios', idServicios);
+    // datos.append('servicios', idServicios);
     idServicios.forEach(id => {
         datos.append('servicios[]', id);
     });
